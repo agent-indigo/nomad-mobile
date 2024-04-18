@@ -1,7 +1,6 @@
-import { SafeAreaView, Text, View } from "react-native";
-import tailwind from "tailwind-rn";
-
-export default function App() {
+import {SafeAreaView, Text, View} from "react-native"
+import tailwind from "tailwind-rn"
+const App = () => {
   return (
     <SafeAreaView style={tailwind("flex-1 items-center justify-center")}>
       <View style={tailwind("bg-blue-500 px-5 py-3 rounded-full")}>
@@ -10,5 +9,6 @@ export default function App() {
         </Text>
       </View>
     </SafeAreaView>
-  );
+  )
 }
+export default App
