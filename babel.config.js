@@ -1,7 +1,7 @@
-const Config = api => {
+const config = api => {
   api.cache(true)
   return {
     presets: ['babel-preset-expo']
   }
 }
-export default Config
+export default config
