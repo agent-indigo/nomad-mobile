@@ -1,14 +1,19 @@
-import {SafeAreaView, Text, View} from "react-native"
-import tailwind from "tailwind-rn"
+import {StatusBar} from 'expo-status-bar'
+import {StyleSheet, Text, View} from 'react-native'
 const App = () => {
   return (
-    <SafeAreaView style={tailwind("flex-1 items-center justify-center")}>
-      <View style={tailwind("bg-blue-500 px-5 py-3 rounded-full")}>
-        <Text style={tailwind("text-white font-semibold text-lg")}>
-          Hello Tailwind 👋
-        </Text>
-      </View>
-    </SafeAreaView>
+    <View style={styles.container}>
+      <Text>Open up App.js to start working on your app!</Text>
+      <StatusBar style="auto"/>
+    </View>
   )
 }
 export default App
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }
+})
