@@ -1,11 +1,4 @@
 {
   "extends": "expo/standard",
-  "parser": "babel-eslint",
-  "plugins": ["prettier"],
-  "overrides": [
-    {
-      "files": ["**/*.{jsx,tsx}"],
-      "extends": ["plugin:prettier/recommended"]
-    }
-  ]
+  "parser": "babel-eslint"
 }
