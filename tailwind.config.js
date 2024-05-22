@@ -1,5 +1,5 @@
 const tailwindConfig = {
-  content: ["**/*.{js,jsx,ts,tsx}"],
+  content: ['**/*.{js,jsx,ts,tsx}'],
   plugins: [
     require('daisyui'),
     require('nativewind/tailwind/css')
