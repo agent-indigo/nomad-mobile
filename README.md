@@ -4,9 +4,9 @@
 
 React Native Android and iOS Mobile App for a decentralized social networking application using ActivityPub and Matrix.
 
-## Other Repositories
+## Links
 
-- [Express.js](https://github.com/agent-indigo/fedissary-api)
+- [Express.js API](https://github.com/agent-indigo/fedissary-api)
 
 - [React.js Web Client](https://github.com/agent-indigo/fedissary-web)
 
