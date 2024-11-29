@@ -2,7 +2,9 @@
 
 ## Description
 
-[React Native](https://reactnative.dev) Android and iOS Mobile App for a decentralized social networking application using [ActivityPub](https://activitypub.rocks) and [Matrix](https://matrix.org).
+Decentralized social networking application using [ActivityPub](https://activitypub.rocks) and [Matrix](https://matrix.org)
+
+[React Native](https://reactnative.dev) Android & iOS app
 
 ## Links
 
